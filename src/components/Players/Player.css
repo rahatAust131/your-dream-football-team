@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    transition: all 0.35s ease-in-out;
+    box-sizing: border-box;
+}
+.player-container {
+    width: 65%;
+}
+.player-info {
+    margin: 15px;
+    padding: 25px;
+    background-color: springgreen;
+    border-radius: 7px;
+    box-shadow: 3px 3px 3px gray;
+    width: 55%;
+}
