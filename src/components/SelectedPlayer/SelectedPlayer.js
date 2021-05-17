@@ -15,7 +15,7 @@ const SelectedPlayer = (props) => {
     }
     
     return (
-        <div className="selected-div card w-20">
+        <div className="selected-container card">
             <div className='card-body'>
                 <h4 className="card-title" style={{color : 'tomato'}}>
                     Choose Your Desired Player

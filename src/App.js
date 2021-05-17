@@ -19,16 +19,16 @@ function App() {
   };
 
   return (
-    <div className="main container">
-      <h1 className="title">Total Player :  {players.length}</h1>
-      <div>
+    <div className="row g-3 p-2">
+      <h3 className="title">Total Player :  {players.length}</h3>
+      <div className="col-md-6">
         {
-          players.map(player => <Player player = {player} handleAddPlayer = {handleAddPlayer} key = {player.id} ></Player>)
+          players.map(player => <Player player={player} handleAddPlayer={handleAddPlayer} key={player.id} ></Player>)
         }
       </div>
-      <div >
-        <SelectedPlayer selectedPlayers = {selectedPlayers}></SelectedPlayer>
-      </div>  
+      <div className="col-md-6">
+        <SelectedPlayer selectedPlayers={selectedPlayers}></SelectedPlayer>
+      </div>
     </div>
   );
 }

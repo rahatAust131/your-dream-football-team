@@ -3,13 +3,6 @@
     padding: 0;
     box-sizing: border-box;
 }
-.selected-div {
-    margin-left: 5px;
-    background-image: linear-gradient(45deg, greenyellow,cyan);
-    border-radius: 14px;
-    padding: 7px;
-    width: 30%;
-    position: absolute;
-    top: 100px;
-    right: 15%;
+.selected-container {
+    background-color: rgb(195, 233, 195);
 }
