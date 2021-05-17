@@ -4,14 +4,13 @@
     transition: all 0.35s ease-in-out;
     box-sizing: border-box;
 }
-.player-container {
-    
-    margin: 5px;
-}
 .player-container img {
     display: block;
     width: 45%;
     margin: 5px auto;
+}
+.player-container {
+    margin: 5px;
 }
 .player-info {
     text-align: center;

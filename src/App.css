@@ -1,5 +1,11 @@
-h3{
-    color: whitesmoke;
-    background-color: dimgray;
-    text-align: center;
+.side-space {
+  display: block;
+  width: 95%;
+  margin: auto;
+}
+
+h3 {
+  color: whitesmoke;
+  background-color: dimgray;
+  text-align: center;
 }

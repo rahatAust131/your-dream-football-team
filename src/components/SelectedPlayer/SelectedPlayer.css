@@ -5,4 +5,6 @@
 }
 .selected-container {
     background-color: rgb(195, 233, 195);
+    margin: 0;
+    padding: 0;
 }
